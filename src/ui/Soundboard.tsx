@@ -18,11 +18,6 @@ export const Soundboard = () => {
     const [image, setImage] = useState('')
     const sounds: Sound[] = [
         {
-            label: 'Bruh',
-            sound: bruh,
-            background: "https://a.pinatafarm.com/1280x720/c4501f5320/bruh-21312533edad132bf036faff5425fd55-meme.jpeg"
-        },
-        {
             label: 'After',
             sound: after,
             background: "https://resource.flexclip.com/pages/learn-center-old/make-before-and-after-meme/before-and-after-meme-engineering-school.webp"
@@ -51,6 +46,11 @@ export const Soundboard = () => {
             label: 'Harder',
             sound: harder,
             background: "https://blog.xoxoday.com/content/images/2024/04/working-hard-meme-3.webp"
+        },
+        {
+            label: 'Bruh',
+            sound: bruh,
+            background: "https://a.pinatafarm.com/1280x720/c4501f5320/bruh-21312533edad132bf036faff5425fd55-meme.jpeg"
         },
 
     ]
